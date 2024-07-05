@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+.hometitle {
+    position: absolute;
+    font-size: 7vw;
+    line-height: 8vw;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    background: url('https://media1.tenor.com/m/8ctGtM0JDmUAAAAC/marvel-avengers.gif');
+    background-size: 40%;
+    background-position: 50% 50%;
+    -webkit-background-clip:inherit; 
+    -moz-background-clip: text;
+    background-clip: text;
+    color: rgba(245, 11, 11, 0.08);
+    margin-top: 18%;
+    margin-left: 30%;
+    transition: 0.5s;
+}
+
+.hometitle:hover{
+    font-size: 8vw;
+    transition: 0.5s;
+}
+
+.homebg h3{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 19%;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Poppins',sans-serif;
+}
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    color: #881046;
+    border: 1px solid #ef4880;
+    border-radius: 5px;
+    line-height: 2.6em;
+    padding-left: 2em;
+    padding-right: 2em;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 34%;
+    margin-left: 40%;
+}
+
+.button:hover {
+    color: white;
+    box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+    background-color: #ba16aa;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    text-decoration:wavy;
+  }
+  .button:hover:before {
+    -webkit-animation: shine 0.5s 0s linear;
+    -moz-animation: shine 0.5s 0s linear;
+    animation: shine 0.5s 0s linear;
+  }
+  .button:before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: rgb(187, 159, 159);
+    box-shadow: 0 0 15px 3px rgb(114, 97, 97);
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      opacity: 0;
+      left:2%;
+    }
+    50% {
+      opacity: 1;
+      left: 20%;
+    }
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  @-moz-keyframes shine {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+    50% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  @keyframes shine {
+    from {
+      opacity: 0;
+      left: 0%;
+    }   
+    50% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
