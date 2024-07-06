@@ -1,4 +1,5 @@
-*Reference from Single Page Application*
+*Reference from Single Page Application Project made publicly available*
+~Fetch popular movie requests using https://www.themoviedb.org/ api calls~
 
 # Getting Started with Create React App
 
