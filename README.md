@@ -1,6 +1,43 @@
-*Reference from Single Page Application Project made publicly available*
+*Trending Movies Recommender*
 
+This project is a trending movies recommender system that utilizes The Movie Database (TMDb) API to fetch and recommend the most popular movies currently trending. This can help users discover popular movies and stay updated with trending films.
 
+Features:
+Top 10 Popular Movies: Fetches the current top 10 popular movies from TMDb.
+Movie Details: Provides detailed information about each movie, including title, overview, release date, and genre.
+Image Posters: Displays movie posters to give users a visual representation of each movie in a from a card.
+
+*Technologies Used*
+JavaScript: Used for fetching data from TMDb API and manipulating the DOM.
+HTML/CSS: Basic structure and styling of the web page.
+TMDb API: Used for fetching movie data including details and images.
+
+To run the project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/MovieSpan.git
+Navigate into the project directory:
+
+bash
+Copy code
+cd explore
+
+Usage
+Upon running, click on explore to show the top 10 trending movies fetched from TMDb.
+Click on each movie to view more details including the movie overview, release date, and average rating.
+API Usage
+The project uses TMDb API to fetch data. You need to sign up for a free TMDb account and generate an API key.
+Replace YOUR_API_KEY_HERE with your actual API key to fetch data from TMDb.
+javascript
+Copy code
+const apiKey = 'YOUR_API_KEY_HERE';
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
+
+License
 _*Fetch popular movie requests using https://www.themoviedb.org/ api calls*_
 
 # Getting Started with Create React App
