@@ -18,7 +18,7 @@ function App() {
     <Router>
       <Header /> 
       <Switch>
-        <Route exact path="/index">
+        <Route exact path="/">
           <Home />
         </Route>
         <Provider store={store}>
