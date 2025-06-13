@@ -31,8 +31,8 @@ body {
     transition: transform 0.4s, box-shadow 0.2s;
     box-shadow: 0 10px 20px rgba(44, 4, 4, 0.698);
     background: linear-gradient(to bottom, rgba(149, 38, 38, 0.155), rgba(141, 134, 122, 0.6));
-     backdrop-filter: blur(8px); 
-    -webkit-backdrop-filter:blur(10px);
+     /* backdrop-filter: blur(8px);  */
+    /* -webkit-backdrop-filter:blur(10px); */
 }
 
 .movie_card:hover {
@@ -82,7 +82,7 @@ body {
     background-blend-mode: multiply;
     z-index: 2;
     border-radius: 15px;
-    backdrop-filter: blur(13px);
+    /* backdrop-filter: blur(13px); */
 }
 
 .movie_card .info_section .movie_header {

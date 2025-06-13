@@ -1,5 +1,5 @@
 .header{
-    position:-sticky;
+    position:relative;
     z-index: 100;
     width:80%;
     color: rgb(232, 187, 187);
@@ -25,7 +25,7 @@
 
 #headlink{
    text-decoration: none;
-   color: rgb(28, 157, 237);
+   color: rgb(232, 187, 187);
    margin-right:8px;
    font-family: 'Red Hat Display', sans-serif;
 }
